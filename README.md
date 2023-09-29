@@ -37,30 +37,30 @@ This project, named WeatherApp, is designed to build a service that interfaces w
 
 ### Clone the Repositories
 
-\`\`\`bash
+```
 git clone https://github.com/mfatimacruiz/WeatherApp.git
 git clone https://github.com/mfatimacruiz/TestWeatherApp.git
-\`\`\`
+```
 
 ### Back-end (WeatherApp)
 
 Navigate to the `WeatherApp` directory:
 
-\`\`\`bash
+```
 cd WeatherApp
-\`\`\`
+```
 
 Build the project:
 
-\`\`\`bash
+```
 dotnet build
-\`\`\`
+```
 
 Run the server:
 
-\`\`\`bash
+```
 dotnet run
-\`\`\`
+```
 
 ### Adding Test Project in Visual Studio Code
 
@@ -70,21 +70,20 @@ Open the `WeatherApp` project in Visual Studio Code. Add the test project (`Test
 
 Navigate to the `ClientApp` directory inside `WeatherApp`:
 
-\`\`\`bash
+```
 cd WeatherApp/ClientApp
-\`\`\`
-
+```
 Install the dependencies:
 
-\`\`\`bash
+```
 npm install
-\`\`\`
+```
 
 Run the front-end:
 
-\`\`\`bash
+```
 npm start
-\`\`\`
+```
 
 ## API Keys
 
@@ -96,17 +95,17 @@ API keys for rate-limiting will be provided separately via email. Please check y
 
 Navigate to the `TestWeatherApp` directory and run:
 
-\`\`\`bash
+```
 dotnet test
-\`\`\`
+```
 
 ### Front-end Testing (ClientApp)
 
 Navigate to the `ClientApp` directory and run:
 
-\`\`\`bash
+```
 npm test
-\`\`\`
+```
 
 ## How to Use
 
